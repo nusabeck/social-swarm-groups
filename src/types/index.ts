@@ -1,4 +1,3 @@
-
 export type SocialNetwork = 
   | 'twitter' 
   | 'facebook' 
@@ -6,7 +5,8 @@ export type SocialNetwork =
   | 'linkedin' 
   | 'youtube' 
   | 'pinterest' 
-  | 'tiktok';
+  | 'tiktok'
+  | 'twitch';
 
 export interface SocialProfile {
   id: string;
