@@ -7,7 +7,7 @@ import {
   Instagram, 
   Linkedin, 
   Youtube, 
-  PinAlt, 
+  Pin, 
   ScrollText 
 } from 'lucide-react';
 
@@ -35,7 +35,7 @@ export const SocialIcon: React.FC<SocialIconProps> = ({
       case 'youtube':
         return <Youtube size={size} className={`text-social-youtube ${className}`} />;
       case 'pinterest':
-        return <PinAlt size={size} className={`text-social-pinterest ${className}`} />;
+        return <Pin size={size} className={`text-social-pinterest ${className}`} />;
       case 'tiktok':
         return <ScrollText size={size} className={`text-social-tiktok ${className}`} />;
       default:
